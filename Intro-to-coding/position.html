@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Postioning
+        </title>
+    </head>
+    <body style="
+    height:3000px;
+    padding-top: 60px;
+    padding-left:200px;
+    ">
+        <div style="
+        background-color:black;
+        color:white;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        right:0;
+        height:50px;
+        z-index: 0;
+        ">
+            header
+        </div>
+        <div style="
+        background-color:green;
+        position:fixed;
+        left:0;
+        bottom:0;
+        top:50px;
+        width:100px;
+        ">
+                <div style="
+                position:absolute;
+                background-color:red;
+                top:0px;
+                right:0px;
+                ">
+                  x
+                </div>
+            Sidebar
+        </div>
+        <div style="
+        position:absolute;
+        background-color:red;
+        top:10px;
+        right:60px;
+        ">
+            Absolute
+        </div>
+        <div style="
+        background-color:aqua;
+        height:200px;
+        width:200px;
+        position:static;
+        ">
+            div1
+        </div>
+        <div style="
+        background-color:pink;
+        height:200px;
+        width:200px;
+        position: relative;
+        ">
+                        <div style="
+                        position:absolute;
+                        background-color:red;
+                        top:0px;
+                        right:0px;
+                        ">
+                          x
+                        </div>
+        </div>
+    </body>
+</html>
